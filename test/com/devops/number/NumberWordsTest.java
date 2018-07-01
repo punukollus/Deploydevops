@@ -11,14 +11,14 @@ private NumberWordsTe numbrword;
 		numbrword=new NumberWordsTe();
 	}
 
-	/*@Test
+	@Test
 	public void numberOutOfRangeReturnsError() {
 		Assert.assertEquals( "Error", "Number out of range", numbrword.toWords( - 1) ) ;
-	}*/
+	}
 	
-	@Test
+	/*@Test
 	public void scenarioone() {
 		Assert.assertEquals( "Success", "one hundred",numbrword.toWords(100) ) ;
 	}
-
+*/
 }
