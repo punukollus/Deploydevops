@@ -7,6 +7,7 @@ public class NumberWordsTe {
 	  public String toWords( int number ) {
 	    	DefaultProcessor processor = new DefaultProcessor();
 			String result = processor.getName(number) ;
+			System.out.println("hi");
 			return result.trim() ;
 		}
 
